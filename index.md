@@ -4,3 +4,10 @@
 
 layout: home
 ---
+
+Welcome to My Home Page
+
+{% assign date = '2021-09-08T01:02:03Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
